@@ -82,7 +82,13 @@ make install
 Built files are at /home/cogroid/local/libatomic_ops/i386
 ```
 
-### Build for armv7-a machine
+### Build for armv7 machine
+
+Set APP_PKG to your android app package name.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
 
 ```
 sudo apt update
